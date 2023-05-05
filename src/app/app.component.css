@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  border: 5px double goldenrod;
+  padding: 1rem;
+
+}
+
+.section {
+  padding: 3rem;
+  margin: 0 1rem;
+}

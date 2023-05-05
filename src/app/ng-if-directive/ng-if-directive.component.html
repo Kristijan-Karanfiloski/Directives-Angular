@@ -1,0 +1,15 @@
+<h6>
+  In Angular, structural directives are used to conditionally render content in
+  the HTML based on certain conditions. Structural directives are identified by
+  an asterisk (*) preceding the directive name in the HTML template. THEY CAN
+  MODIFY THE DOM BUT CANT REMOVE AN ELEMENT FROM THE DOM.
+</h6>
+
+
+
+
+<div *ngIf="rooms.availableRooms>0">
+<app-rooms-list [rooms]="roomList" (selectedRoom)="selectRoom($event)" ></app-rooms-list>
+
+  <hr />
+</div>
